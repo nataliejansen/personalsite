@@ -219,7 +219,8 @@ a {
     opacity: 1; }
 
 .navbar-toggler {
-  font-size: 3rem; }
+  font-size: 3rem;
+  background-color: #fff; }
 
 .not-on-top #gtco-header-navbar {
   position: fixed;
