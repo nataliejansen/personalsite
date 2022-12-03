@@ -7,12 +7,13 @@ html {
   overflow-x: hidden; }
 
 body {
-  background-image: url(./../img/startrails.jpg);
+  background-image: url(./../img/bluenebula.jpg);
   background-size: cover;
+  background-color: #000;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 300;
   font-size: 1.6rem; }
   body:after {
@@ -26,8 +27,17 @@ body {
     opacity: .8;
     z-index: -1;
     background: #22074e;
-    background: -webkit-linear-gradient(to right, #3b094e, #22074e);
-    background: linear-gradient(to right, #3b094e, #22074e); }
+    background: -webkit-linear-gradient(to right, #120218, #0d021e);
+    background: linear-gradient(to right, #120218, #0d021e); }
+
+  div.container {
+    background-color: #000;
+    
+  }
+
+  article.container {
+    background-color: #000;
+  }
 
 .boxed-page {
   margin: 0 auto;
@@ -87,13 +97,15 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Work Sans', sans-serif;
-  margin-top: 0; }
+  font-family: 'Patrick Hand', sans-serif;
+  margin-top: 0; 
+color: rgba(255, 255, 255, 0.851);}
 
 p {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.5em;
+  color: rgba(255, 255, 255, 0.65);
   }
 
 .section-title,
@@ -201,13 +213,14 @@ a {
   right: 0;
   left: 0;
   z-index: 11;
+  background-color: #0d021e;
   transition: background-color .3s ease-in-out;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px; }
 
 .navbar-brand {
   font-size: 40px;
-  color: #fff; }
+  color: #e1cef5; }
 
 .navbar-nav .nav-link {
   color: #fff;
@@ -230,12 +243,12 @@ a {
   right: 0;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #fff;
+  background-color: #120218;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 15px 0px;
   border-radius: 0; }
 
 .jumbotron {
-  background-color: #fff;
+  background-color: #000;
   padding-top: 80px;
   padding-bottom: 80px;
   background-repeat: no-repeat;
@@ -247,7 +260,8 @@ a {
   border-top-right-radius: 5px;
   margin-bottom: 0;
   overflow: hidden;
-  min-height: 500px; }
+  min-height: 500px;
+  color:#fff }
   @media (min-width: 1024px) {
     .jumbotron {
       min-height: 80vh; } }
@@ -257,7 +271,7 @@ a {
     position: absolute;
     display: block;
     content: "";
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #000;
     opacity: 0.8;
     top: 0;
     bottom: 0;
@@ -323,20 +337,7 @@ a {
 .grid-title {
   text-align: center; }
 
-.blog-item {
-  transition: all 0.3s ease-in-out;
-  background-color: #f7f8f9;
-  border-radius: 3px;
-  overflow: hidden; }
-  .blog-item:hover {
-    box-shadow: 0 5px 15px -5px #333;
-    transform: translateY(-6px);
-    -webkit-transform: translateY(-6px);
-    -moz-transform: translateY(-6px);
-    transform: translateY(-6px);
-    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15); }
+
 
 .bg-grey .blog-item {
   background-color: #fff; }
@@ -407,7 +408,8 @@ a {
 
 footer {
   border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px; }
+  border-bottom-right-radius: 5px; 
+  background-color: #000 ;}
 
 #formContainer {
   background-image: url();
@@ -450,7 +452,7 @@ footer {
   display: none; }
 
 .single-layout .jumbotron:before {
-  background-color: rgba(255, 255, 255, 0.9); }
+  background-color: #000; }
 
 .blog-content img.float-left {
   margin: 15px 15px 15px 0; }
@@ -471,7 +473,7 @@ footer {
     margin-top: 15px; }
   #gtco-header-navbar {
     padding-left: 15px;
-    background-color: #fff; } }
+    background-color: #000; } }
 
 @media (max-width: 767px) {
   .boxed-page {
