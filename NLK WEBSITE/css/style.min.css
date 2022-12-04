@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: 300;
   font-size: 1.6rem; }
   body:after {
@@ -97,7 +97,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Patrick Hand', sans-serif;
+  font-family: 'Shadows Into Light', sans-serif;
   margin-top: 0; 
 color: rgba(255, 255, 255, 0.851);}
 
@@ -115,7 +115,11 @@ p {
 
 .btn {
   font-size: 1.6rem;
-  padding: .7rem 1rem; }
+  padding: .7rem 1rem;
+  background-image: url(./../img/panorama.jpg);
+  background-size: cover;
+   }
+  
 
 img {
   max-width: 100%; }
@@ -128,7 +132,7 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #22074e; }
+  color: #684d93; }
 
 .btn-group-lg > .btn, .btn-lg {
   padding: 1rem; }
@@ -214,6 +218,11 @@ a {
   left: 0;
   z-index: 11;
   background-color: #0d021e;
+  background-image: url(./../img/panorama.jpg);
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   transition: background-color .3s ease-in-out;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px; }
@@ -233,7 +242,8 @@ a {
 
 .navbar-toggler {
   font-size: 3rem;
-  background-color: #fff; }
+  background-color: #000; 
+  color: #f7f8f9}
 
 .not-on-top #gtco-header-navbar {
   position: fixed;
@@ -250,7 +260,7 @@ a {
 .jumbotron {
   background-color: #000;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
