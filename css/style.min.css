@@ -39,6 +39,10 @@ body {
     background-color: #000;
   }
 
+  section.container {
+    background-color:#000;
+  }
+
 .boxed-page {
   margin: 0 auto;
   margin-top: 6rem;
